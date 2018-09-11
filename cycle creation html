@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Test Site For HTML, CSS, and Javascript of Workout App</h1>
+  
+  <button type="button" onclick="changeText()">Change Text</button>
+
+  <button id="resize_mesocycle">Resize Mesocycles</button>
+  
+  <button id="meso_text_change">Change Mesocycle Names</button>
+  
+  <div class="mesoTextContent">
+  
+    <div class="mesocycle" id="recovery">Recovery</div>
+    <div class="mesocycle" id="meso1">Mesocycle 1</div>
+    <div class="mesocycle" id="meso2">Mesocycle 2</div>
+    <div class="mesocycle" id="meso3">Mesocycle 3</div>
+    <div class="mesocycle" id="meso4">Mesocycle 4</div>
+    <div class="mesocycle" id="meso5">Mesocycle 5</div>
+
+  </div>
+  
+  <button id="done_text_change">Done with Text Change</button>
+  <br><button id="done_resize_meso"> Done with Resize</button>
+  
+</body>
+</html>
