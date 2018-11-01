@@ -1,0 +1,123 @@
+body {
+	transition: background-color .5s;
+}
+
+.nav {
+	width: 200px;
+	position: fixed;
+	z-index: 0.8; /* this is to ensure the menu stays on top of everything else on the page */
+	padding: 0;
+	top: 10%;
+	left: 0;
+	overflow-y: auto;
+}
+
+.nav button {
+	color: #fff;
+	background: #000;
+	border: none;
+	padding: 10px 0px;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100px;
+	font-size: 30px;
+}
+
+.nav button:hover {
+	background: #117bff;
+	cursor: pointer;
+	transition: background .5s;
+}
+
+.nav button:focus {
+	background: white;
+	color: black;
+	transition: background .5s;
+}
+
+.vert_athletes_menu {
+	width: 200px;
+	position: fixed;
+	top: 10%;
+	bottom: 0;
+	margin-left: 200px;
+	overflow-y: auto;
+}
+
+.side_nav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 60px;
+	white-space: nowrap; /* stops side nav buttons from wrapping when the side nav is opened/closed */
+	transition: 0.5s;
+}	
+
+.side_nav button {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	border: none;
+	color: #818181;
+	background-color: #111;
+	cursor: pointer;
+	width: 100%;
+	text-align: left;
+	display: block;
+	transition: 0.3s;
+}
+
+.side_nav button:hover {
+	color: #f1f1f1;
+}
+
+.dropdown_container {
+	height: 0;
+	background-color: #262626;
+	padding-left: 8px;
+	overflow-y: auto;
+	transition: height .5s;
+}
+
+.dropdown_container button {
+	background-color: #262626;
+}
+
+.fa-caret-down {
+	float: right;
+	padding-right: 8px;
+}
+
+.side_nav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	text-align: right;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+#side_nav_open_button {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100px;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.rand_text {
+	margin-left: 410px;
+	font-size: 100px;
+	padding: 0px 10px;
+}
+
+.header h1 {
+	margin-left: 43%;
+}
